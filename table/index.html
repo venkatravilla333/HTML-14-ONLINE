@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table{
+      /* border: 1px solid black; */
+      width: 300px;
+      height: 200px;
+      margin-top: 40px;
+      margin: 30px auto;
+      
+      
+    }
+    td{
+      text-align: center;
+      vertical-align: bottom;
+    }
+    th{
+      height: 50px;
+      text-align: right;
+      vertical-align: bottom;
+    }
+   
+  </style>
+</head>
+<body>
+  <table border="1" cellspacing="2px" cellpadding="2px">
+    <caption>This students data</caption>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Address</th>
+        <th>Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sachin</td>
+        <td>40</td>
+        <td>Mumbai</td>
+        <td>999999999</td>
+      </tr>
+      <tr>
+        <td>Rahul</td>
+        <td>20</td>
+        <td rowspan="2">Hyd</td>
+        <td>777777777</td>
+      </tr>
+      <tr>
+        <td>Kalyan</td>
+        <td>25</td>
+        <!-- <td>Hyd</td> -->
+        <td>888888888</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">This is footer</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
